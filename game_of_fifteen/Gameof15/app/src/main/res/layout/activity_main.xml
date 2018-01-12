@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO GAME OF 15"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textColor="#0000FF"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/welcome"
+        android:background="#F99700"
+        android:textColorHighlight="#FF0000"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#F276F5"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#F276F5"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:text="1. The objective of the game is to get the numbers in ascending order both right to left and sideways.                                                                                               2.The tile numbered zero is the only swappable tile which may be swapped with any of its adjacent tiles by tapping on any tile adjacent to the zero tile.                                             3.After the first move the zero tile becomes invisible to facilitatate easier visualisation.                                                     4.There are 3 difficulty modes and each mode has a specific time limit for completion. On completion of the game your time taken will be displayed and you will have to wait a few seconds to enter your name and see if it has made its mark into the records."/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="PLAY"
+        android:backgroundTint="#00FF00"
+        android:onClick="play"/>
+</LinearLayout>
