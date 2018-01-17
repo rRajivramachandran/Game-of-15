@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <style name="blocks">
-        <item name="android:textSize">30dp</item>
-        <item name="android:textColor">#FF0000</item>
-        <item name="android:background">#000000</item>
-    </style>
-</resources>
