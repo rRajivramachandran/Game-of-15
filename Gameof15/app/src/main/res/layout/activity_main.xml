@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO GAME OF 15"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textColor="#0000FF"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/welcome"
+        android:background="#F99700"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="#FF0000"
+        android:layout_marginLeft="50dp"/>
+        <Button
+
+
+
+            android:textColor="#FF5252"
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="68dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8929F"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/welcome"
+            android:text="      PLAY             "
+            android:id="@+id/play"
+            android:onClick="play"
+            />
+        <Button
+
+
+
+            android:textColor="#FF5252"
+            android:textSize="30sp"
+            android:id="@+id/instruct"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="68dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8929F"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="         INSTRUCTIONS             "
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/play"
+            android:onClick="instruct"
+            />
+        <Button
+
+
+
+            android:textColor="#FF5252"
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="68dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8929F"
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:id="@+id/sound"
+            android:text="Sound settings"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/instruct"
+            android:onClick="sound"
+            />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

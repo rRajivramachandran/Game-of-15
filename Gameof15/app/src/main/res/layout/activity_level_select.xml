@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lsel"
+    >
+
+    <Button
+        android:id="@+id/easy"
+        android:onClick="easy"
+        android:text="Easy 35 seconds"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_easy"
+        android:shadowColor="#76A88F"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:id="@+id/med"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="Med 50 seconds"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:onClick="medium"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_med"
+        android:shadowColor="#76A88F"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/hard"
+        android:onClick="hard"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="Hard 90 seconds"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_hard"
+        android:shadowColor="#76A88F"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/home"
+        android:onClick="home"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="HOME"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/homebutton"
+        android:shadowColor="#76A88F"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        />
+
+
+</LinearLayout>

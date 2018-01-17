@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+
+    android:layout_width="match_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:background="@drawable/instructions">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instructions:"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#F276F5"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="#AFFA94"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="1. The objective of the game is to get the numbers in ascending order both right to left and sideways.\n\n 2.The blank tile is the only swappable tile which may be swapped with any of its adjacent tiles by tapping on any tile adjacent to it.\n\n3.There are 3 difficulty modes and each mode has a specific time limit for completion. On completion of the game hold on to see if you have made it into the records."/>
+
+<Button
+
+    android:textColor="#FFFFFF"
+    android:textSize="30sp"
+
+    android:layout_width="270dp"
+    android:layout_marginLeft="30dp"
+    android:layout_height="60dp"
+    android:background="@drawable/homebutton"
+    android:shadowColor="#A8A8A8"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:shadowRadius="5"
+    android:layout_marginTop="25dp"
+    android:text="HOME"
+    android:onClick="home"/>
+    </LinearLayout>
+    </ScrollView>

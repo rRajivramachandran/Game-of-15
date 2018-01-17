@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/numbers"
+    tools:context="com.example.rajiv.gameof15.Homesplash">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#1e1d1c"
+    android:textSize="80dp"
+    android:textColorHighlight="#FFFFFF"
+    android:id="@+id/game"
+    android:fontFamily="cursive"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="GAME OF 15"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game"
+        android:textColor="#1e1c19"
+        android:fontFamily="monospace"
+        android:textSize="25dp"
+        android:text="Dev by R.RAJIV"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="250dp"
+        />
+
+</RelativeLayout>

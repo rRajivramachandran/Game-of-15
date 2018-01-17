@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@mipmap/win"
+         android:id="@+id/winhammer"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/impact"
+        android:id="@+id/impact"
+        android:layout_below="@id/winhammer"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/impact"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:id="@+id/congrads"
+        android:text="You have hit the leaderboard"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/congrads"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:id="@+id/congo"
+        android:textColor="#0009FF"
+        android:text="CONGRATULATIONS"/>
+
+
+
+</RelativeLayout>

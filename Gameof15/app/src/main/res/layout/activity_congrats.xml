@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:background="@drawable/con">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="CONGRATULATIONS ON FINISHING!!!!"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FF0000"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/timez"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FF0000"
+            android:text="FINISHED IN:  "/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FF0000"
+            android:text="Enter your name:  "/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:inputType="textShortMessage"
+            android:backgroundTint="#00FF00"
+            android:id="@+id/namer"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="enter"
+            android:text="DONE"/>
+
+    </LinearLayout>
+</ScrollView>

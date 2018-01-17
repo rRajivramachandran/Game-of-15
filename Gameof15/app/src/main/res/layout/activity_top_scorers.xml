@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:background="@drawable/leader"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+
+        android:text="THE TABLE OF LEGENDS: MEDIUM LEVEL"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="20dp"
+        android:id="@+id/levelled"
+
+        android:textColor="#00FF00"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#00FF00"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="RANK       TIME    NAME"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin"/>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="1       30  scsdcdscsdsscds "
+        android:id="@+id/one"
+        android:fontFamily="cursive"
+        android:textColor="#00FF00"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:layout_below="@id/one"
+        android:layout_height="wrap_content"
+        tools:text="1                    30                      scsdcdscsdsscds "
+        android:id="@+id/two"
+        android:textColor="#00FF00"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:layout_below="@id/two"
+        android:layout_height="wrap_content"
+        tools:text="1                    30                      scsdcdscsdsscds "
+        android:id="@+id/three"
+        android:textColor="#00FF00"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/three"
+        android:textSize="30dp"
+        android:textColor="#00FF00"
+        tools:text="1                    30                      scsdcdscsdsscds "
+        android:id="@+id/four"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_below="@id/four"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF00"
+        tools:text="1                    30                      scsdcdscsdsscds "
+        android:id="@+id/five"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="cursive"
+        android:textColor="#00FF00"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_below="@id/five"
+        tools:text="1                    30                      scsdcdscsdsscds "
+        android:id="@+id/six"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#00FF00"
+        android:fontFamily="cursive"
+        android:layout_below="@id/six"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        tools:text="1                    30                      scsdcdscsdsscds "
+        android:id="@+id/seven"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/seven"
+        android:textSize="30dp"
+        android:textColor="#00FF00"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        tools:text="1                    30                      scsdcdscsdsscds "
+        android:id="@+id/eight"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_below="@id/eight"
+        android:textColor="#00FF00"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        tools:text="1                    30                      scsdcdscsdsscds "
+        android:id="@+id/nine"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/nine"
+        android:textColor="#00FF00"
+        android:fontFamily="cursive"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        tools:text="1                    30                      scsdcdscsdsscds "
+        android:id="@+id/ten"
+        />
+        <Button
+
+
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+            android:layout_width="117dp"
+            android:layout_height="42dp"
+            android:background="@drawable/home_small"
+            android:shadowColor="#9DA856"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Home"
+            android:layout_below="@id/ten"
+            android:layout_marginTop="20dp"
+            android:onClick="home"/>
+    </RelativeLayout>
+</ScrollView>
+    </LinearLayout>

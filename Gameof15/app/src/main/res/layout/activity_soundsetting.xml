@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/speaker">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="Click to hear"
+            android:textSize="60dp"
+            android:textColor="#A9AF29"
+            android:layout_marginTop="30dp"
+            android:id="@+id/hear"
+            android:layout_centerHorizontal="true"/>
+       <Button
+        android:id="@+id/mario"
+
+        android:text="Mario"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/sound_button"
+           android:layout_below="@id/hear"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="70dp"
+           android:onClick="mario"
+        android:shadowColor="#A8374A"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+        <Button
+            android:id="@+id/gun"
+
+            android:text="Gun"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:background="@drawable/sound_button"
+            android:layout_below="@id/mario"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:onClick="gun"
+            android:shadowColor="#A8374A"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+        <Button
+            android:id="@+id/bird"
+
+            android:text="Bird"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:background="@drawable/sound_button"
+            android:layout_below="@id/gun"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:onClick="bird"
+            android:shadowColor="#A8374A"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+        
+        
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finalise"
+            android:layout_below="@id/bird"
+            android:id="@+id/choose"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:textColor="#F8F6F1"
+            android:textSize="60dp"/>
+        <Button
+            android:id="@+id/mariofinalise"
+            android:onClick="mariofinalise"
+            android:text="Marios"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:layout_marginTop="70dp"
+            android:layout_width="270dp"
+            android:layout_below="@id/choose"
+            android:layout_height="60dp"
+            android:background="@drawable/button_finalise"
+            android:shadowColor="#9DA87B"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+    <Button
+        android:id="@+id/gunfinalise"
+        android:onClick="gunfinalise"
+        android:layout_centerHorizontal="true"
+        android:text="Gun"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:layout_marginTop="70dp"
+        android:layout_width="270dp"
+        android:layout_below="@id/mariofinalise"
+        android:layout_height="60dp"
+        android:background="@drawable/button_finalise"
+        android:shadowColor="#9DA87B"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/birdfinalise"
+        android:layout_centerHorizontal="true"
+        android:onClick="birdfinalise"
+        android:text="Bird"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:layout_marginTop="70dp"
+        android:layout_width="270dp"
+        android:layout_below="@id/gunfinalise"
+        android:layout_height="60dp"
+        android:background="@drawable/button_finalise"
+        android:shadowColor="#9DA87B"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/home"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="home"
+        android:text="HOME"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_below="@id/birdfinalise"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/homebutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/spinn"
+        android:layout_below="@id/home"/>
+
+</RelativeLayout>
+
+</ScrollView>
